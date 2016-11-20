@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 35px;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.itemsList {
+  display: flex;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.red {
+  background-color: pink;
+}
+
+.card {
+  border: 1px solid grey;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
